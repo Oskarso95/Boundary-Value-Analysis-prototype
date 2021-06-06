@@ -15,5 +15,5 @@ export const BMI_SIMULATION = "BMIBoundaries";
 export const DATE_SIMULATION = "dateBoundaries";
 export const MAX_BMI = 40;
 export const MIN_BMI = 18.5;
-export const WEIGHT_GAP = 1;
+export const WEIGHT_GAP = 2.5;
 export const HEIGHT_GAP = 0.1;
