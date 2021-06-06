@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Boundary value exploration</title>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Choose simulation</h1>
+      <div class="btn-container">
+        <form method="POST" action="/simulation">
+          <input
+            id="simulationName"
+            name="simulationName"
+            type="text"
+            value="dateBoundaries"
+            hidden="hidden"
+          />
+          <input
+            type="submit"
+            id="dateSimulationBtn"
+            class="btn"
+            value="Date boundaries"
+          />
+        </form>
+
+        <form method="POST" action="/simulation">
+          <input
+            id="simulationName"
+            name="simulationName"
+            type="text"
+            value="BMIBoundaries"
+            hidden="hidden"
+          />
+          <input
+            type="submit"
+            id="BMISimulationBtn"
+            class="btn"
+            value="BMI boundaries"
+          />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
